@@ -1,0 +1,23 @@
+{
+  "name": "farewell_site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "dev": "nodemon server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.4",
+    "nodemon": "^3.1.11"
+  }
+}
